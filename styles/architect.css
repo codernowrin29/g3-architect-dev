@@ -1,0 +1,44 @@
+/* work sans font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,800;1,800&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Workbench&display=swap');
+
+* {
+    font-family: "Lato", sans-serif;
+    font-family: "Noto Sans", sans-serif;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* header styles added */
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: rgb(19, 19, 19);
+
+    font-size: 2.0rem;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
