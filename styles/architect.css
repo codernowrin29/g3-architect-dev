@@ -85,10 +85,15 @@ li a {
 
 
 /* main styles start */
+main {
+    max-width: 1440px;
+    margin: 90px 240px;
+}
+
+/* team styles start */
 .team-container {
     display: flex;
     align-items: center;
-    margin: 90px 240px;
 }
 
 .team-column {
@@ -124,6 +129,10 @@ li a {
     margin-top: 0;
     margin-bottom: 30px;
 }
+
+/* team styles end */
+
+
 
 /* media queary */
 /* mobile */
